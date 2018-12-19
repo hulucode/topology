@@ -1,0 +1,310 @@
+[
+  {
+    "current": {
+      "element_id": "1"
+    },
+    "downstream": [
+      {
+        "element_id": "2"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "1"
+      },
+      {
+        "element_id": "20"
+      }
+    ],
+    "current": {
+      "element_id": "2"
+    },
+    "downstream": [
+      {
+        "element_id": "3"
+      },
+      {
+        "element_id": "8"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "2"
+      }
+    ],
+    "current": {
+      "element_id": "3"
+    },
+    "downstream": [
+      {
+        "element_id": "4"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "3"
+      }
+    ],
+    "current": {
+      "element_id": "4"
+    },
+    "downstream": [
+      {
+        "element_id": "5"
+      },
+      {
+        "element_id": "6"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "4"
+      },
+      {
+        "element_id": "9"
+      },
+      {
+        "element_id": "35"
+      }
+    ],
+    "current": {
+      "element_id": "5"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "4"
+      }
+    ],
+    "current": {
+      "element_id": "6"
+    },
+    "downstream": [
+      {
+        "element_id": "7"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "6"
+      }
+    ],
+    "current": {
+      "element_id": "7"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "2"
+      },
+      {
+        "element_id": "31"
+      }
+    ],
+    "current": {
+      "element_id": "8"
+    },
+    "downstream": [
+      {
+        "element_id": "9"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "8"
+      }
+    ],
+    "current": {
+      "element_id": "9"
+    },
+    "downstream": [
+      {
+        "element_id": "10"
+      },
+      {
+        "element_id": "11"
+      },
+      {
+        "element_id": "5"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "9"
+      }
+    ],
+    "current": {
+      "element_id": "10"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "9"
+      }
+    ],
+    "current": {
+      "element_id": "11"
+    }
+  },
+  {
+    "current": {
+      "element_id": "12"
+    },
+    "downstream": [
+      {
+        "element_id": "13"
+      },
+      {
+        "element_id": "14"
+      },
+      {
+        "element_id": "15"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "12"
+      }
+    ],
+    "current": {
+      "element_id": "13"
+    },
+    "downstream": [
+      {
+        "element_id": "17"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "12"
+      }
+    ],
+    "current": {
+      "element_id": "14"
+    },
+    "downstream": [
+      {
+        "element_id": "16"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "12"
+      }
+    ],
+    "current": {
+      "element_id": "15"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "14"
+      }
+    ],
+    "current": {
+      "element_id": "16"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "13"
+      }
+    ],
+    "current": {
+      "element_id": "17"
+    },
+    "downstream": [
+      {
+        "element_id": "18"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "17"
+      }
+    ],
+    "current": {
+      "element_id": "18"
+    }
+  },
+  {
+    "current": {
+      "element_id": "19"
+    },
+    "downstream": [
+      {
+        "element_id": "20"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "19"
+      }
+    ],
+    "current": {
+      "element_id": "20"
+    },
+    "downstream": [
+      {
+        "element_id": "2"
+      },
+      {
+        "element_id": "35"
+      }
+    ]
+  },
+  {
+    "current": {
+      "element_id": "31"
+    },
+    "downstream": [
+      {
+        "element_id": "8"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "20"
+      }
+    ],
+    "current": {
+      "element_id": "35"
+    },
+    "downstream": [
+      {
+        "element_id": "5"
+      }
+    ]
+  }
+]

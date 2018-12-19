@@ -1,0 +1,373 @@
+[
+  {
+    "current": {
+      "element_id": "1"
+    },
+    "downstream": [
+      {
+        "element_id": "2"
+      },
+      {
+        "element_id": "39"
+      },
+      {
+        "element_id": "40"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "1"
+      },
+      {
+        "element_id": "20"
+      }
+    ],
+    "current": {
+      "element_id": "2"
+    },
+    "downstream": [
+      {
+        "element_id": "3"
+      },
+      {
+        "element_id": "8"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "2"
+      }
+    ],
+    "current": {
+      "element_id": "3"
+    },
+    "downstream": [
+      {
+        "element_id": "4"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "3"
+      },
+      {
+        "element_id": "42"
+      }
+    ],
+    "current": {
+      "element_id": "4"
+    },
+    "downstream": [
+      {
+        "element_id": "5"
+      },
+      {
+        "element_id": "6"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "4"
+      },
+      {
+        "element_id": "9"
+      }
+    ],
+    "current": {
+      "element_id": "5"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "4"
+      },
+      {
+        "element_id": "40"
+      }
+    ],
+    "current": {
+      "element_id": "6"
+    },
+    "downstream": [
+      {
+        "element_id": "7"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "6"
+      },
+      {
+        "element_id": "36"
+      }
+    ],
+    "current": {
+      "element_id": "7"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "2"
+      }
+    ],
+    "current": {
+      "element_id": "8"
+    },
+    "downstream": [
+      {
+        "element_id": "9"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "8"
+      }
+    ],
+    "current": {
+      "element_id": "9"
+    },
+    "downstream": [
+      {
+        "element_id": "10"
+      },
+      {
+        "element_id": "11"
+      },
+      {
+        "element_id": "5"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "9"
+      },
+      {
+        "element_id": "41"
+      }
+    ],
+    "current": {
+      "element_id": "10"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "9"
+      },
+      {
+        "element_id": "39"
+      }
+    ],
+    "current": {
+      "element_id": "11"
+    }
+  },
+  {
+    "current": {
+      "element_id": "12"
+    },
+    "downstream": [
+      {
+        "element_id": "13"
+      },
+      {
+        "element_id": "14"
+      },
+      {
+        "element_id": "15"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "12"
+      }
+    ],
+    "current": {
+      "element_id": "13"
+    },
+    "downstream": [
+      {
+        "element_id": "17"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "12"
+      }
+    ],
+    "current": {
+      "element_id": "14"
+    },
+    "downstream": [
+      {
+        "element_id": "16"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "12"
+      }
+    ],
+    "current": {
+      "element_id": "15"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "14"
+      }
+    ],
+    "current": {
+      "element_id": "16"
+    }
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "13"
+      }
+    ],
+    "current": {
+      "element_id": "17"
+    },
+    "downstream": [
+      {
+        "element_id": "18"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "17"
+      }
+    ],
+    "current": {
+      "element_id": "18"
+    }
+  },
+  {
+    "current": {
+      "element_id": "19"
+    },
+    "downstream": [
+      {
+        "element_id": "20"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "19"
+      }
+    ],
+    "current": {
+      "element_id": "20"
+    },
+    "downstream": [
+      {
+        "element_id": "2"
+      }
+    ]
+  },
+  {
+    "current": {
+      "element_id": "36"
+    },
+    "downstream": [
+      {
+        "element_id": "7"
+      },
+      {
+        "element_id": "42"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "1"
+      }
+    ],
+    "current": {
+      "element_id": "39"
+    },
+    "downstream": [
+      {
+        "element_id": "11"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "1"
+      }
+    ],
+    "current": {
+      "element_id": "40"
+    },
+    "downstream": [
+      {
+        "element_id": "6"
+      },
+      {
+        "element_id": "41"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "40"
+      }
+    ],
+    "current": {
+      "element_id": "41"
+    },
+    "downstream": [
+      {
+        "element_id": "10"
+      }
+    ]
+  },
+  {
+    "upstream": [
+      {
+        "element_id": "36"
+      }
+    ],
+    "current": {
+      "element_id": "42"
+    },
+    "downstream": [
+      {
+        "element_id": "4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+.pointer {
+    cursor: pointer;
+}
+
+.node-normal {
+    fill: #ffffff;
+    stroke-width: 1;
+    stroke: #cccccc;
+}
+
+.current-node-highlight {
+    fill: #ffffff;
+    stroke-width: 1;
+    stroke: blue;
+}
+
+.link-node-highlight {
+    fill: #ffffff;
+    stroke-width: 1;
+    stroke: red;
+}
+
+.text-normal {
+    fill: #000000;
+}
+
+.line-normal {
+    stroke: #cccccc;
+    fill: none;
+    opacity: 1;
+}
+
+.line-dark {
+    stroke: #cccccc;
+    fill: none;
+    opacity: 0.3;
+}
+
+.line-highlight {
+    stroke: red;
+    fill: none;
+    opacity: 1;
+}
+
+.arrow-normal {
+    stroke: #cccccc;
+    fill: #cccccc;
+    opacity: 1;
+}
+
+.arrow-dark {
+    stroke: #cccccc;
+    fill: #cccccc;
+    opacity: 0.3;
+}
+
+.arrow-highlight {
+    stroke: red;
+    fill: red;
+    opacity: 1;
+}
+
+.status-5 {
+    fill: #1fce6d;
+}
+
+.status-4 {
+    fill: #43a3fb;
+}
+
+.status-3 {
+    fill: #ae48ee;
+}
+
+.status-2 {
+    fill: #f6a234;
+}
+
+.status-1 {
+    fill: #cfd6e2;
+}

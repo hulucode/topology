@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+}
+
+html, body {
+    overflow: hidden;
+}
+
+input {
+    user-select: text;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.absolute-full {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.relative-full {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-background {
+    background-position: center 40%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.select-filter {
+    -webkit-filter: saturate(5) hue-rotate(500deg) grayscale(0.3) sepia(0.7) contrast(1.5) invert(0.2) brightness(.9);
+}
+
+.btn-disable {
+    background-color: #cccccc;
+    pointer-events: none;
+    color: #ffffff;
+}
+
+.app {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.qia-log-pertext {
+    font-size: 12px;
+    color: #666666;
+    vertical-align: middle;
+}
+
+.qia-log-wrong {
+    color: blue;
+    font-size: 14px;
+}
+
+.qia-log-wrong-history {
+    color: blue;
+    font-size: 20px;
+}
+
+.qia-log-wrong-1 {
+    color: red;
+    font-size: 20px;
+}
+
+.qia-log-wrong-0 {
+    color: green;
+    font-size: 20px;
+}
+
+.xuewen-log-times {
+    color: blue;
+    font-size: 14px;
+}
+
+.xuewen-log-times-1-5 {
+    color: red;
+    font-size: 20px;
+}
+
+.xuewen-log-times-6-10 {
+    color: green;
+    font-size: 20px;
+}
+
+.xuewen-log-times-10 {
+    color: indigo;
+    font-size: 20px;
+}
+
+
+/*push动画*/
+.push-enter-active {
+    animation: push-in .5s;
+}
+
+.push-leave-active {
+    animation: push-out .5s;
+}
+
+@keyframes push-in {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes push-out {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/*fade动画*/
+.fade-enter-active {
+    animation: fade-in .2s;
+}
+
+.fade-leave-active {
+    animation: fade-out .2s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*3d动画*/
+.flip-enter-active {
+    animation: flip-in .5s;
+}
+
+.flip-leave-active {
+    animation: flip-out .5s;
+}
+
+@keyframes flip-in {
+    0% {
+        transform: rotateY(120deg);
+
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes flip-out {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(120deg);
+    }
+}
